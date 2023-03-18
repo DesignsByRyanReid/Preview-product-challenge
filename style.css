@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+}
+
+body {
+    background-color: #f2eae2;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.img01 {
+    border-radius: 20px 0 0 20px;
+}
+.img02 {
+    display: none;
+}
+.content {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 0 20px 20px 0;
+}
+.title {
+    padding-top: 35px;
+    padding-left: 20px;
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+.name {
+    padding-left: 20px;
+    padding-top:15px;
+    padding-right:40px;
+    padding-bottom: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.description {
+    padding-left:20px;
+    padding-right: 40px;
+    font-size: 17px;
+    font-stretch: expanded;
+    color: gray;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.price-container {
+    display: flex;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-price {
+    font-size: 35px;
+    margin-left: 15px;
+    color: hsl(158, 36%, 37%);
+    font-weight:bolder;
+}
+.marked-price {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom:18px;
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+button {
+    margin-left: 30px;
+    width: 240px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media(max-width:600px){
+    .flex-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .img02 {
+        display: block;
+        width: 343px;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+    .img01 {
+        display: none;
+    }
+    .content {
+        background-color: white;
+        width: 343px;
+        height: 371px;
+        border-radius: 0 0 0 0;
+    }
+    .title {
+        padding-top: 25px;
+        padding-left: 20px;
+        color: gray;
+        font-family:'Times New Roman', Times, serif;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .name {
+        padding-left: 20px;
+        padding-top:8px;
+        padding-right:30px;
+        padding-bottom: 16px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-left: 15px;
+    }
+    .description {
+        padding-left:20px;
+        padding-right: 25px;
+        font-size: 17px;
+        font-stretch: expanded;
+        color: gray;
+        margin-left: 15px;
+        margin-bottom: 14px;
+    }
+    .price-container {
+        display: flex;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .main-price {
+        font-size: 35px;
+        margin-left: 15px;
+        color: hsl(158, 36%, 37%);
+        font-weight:bolder;
+    }
+    .marked-price {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom:18px;
+        text-decoration: line-through;
+        color: gray;
+        font-size: 13px;
+    }
+    button {
+        margin-left: 30px;
+        width: 240px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-size: 15px;
+        border: none;
+    }
+}
